@@ -1,0 +1,54 @@
+
+body{
+    
+    
+}
+
+nav{
+    
+    
+    font-size: 15px; 
+    background-color: #87ceeb;
+    font-family: monospace;
+    margin: 0;
+    line-height: 2;
+
+
+}
+
+p{
+    
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#divone{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+#fieldsetone{
+    
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    
+    
+}
+
+#innerdiv{
+    text-align: left;
+    margin-left: 60px;
+    
+}
+
+button{
+    margin-right: 60px;
+    float: right;
+    background-color: #FF5733;
+    padding: 10px 10px 10px 10px;
+    color: white;
+
+}

@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+}
+
+#wrapper
+{
+	width:995px;
+	padding: 0px;
+	align-self: center;
+	
+	margin: 0px auto;
+	font-family: helvetica;
+
+}
+#formbox {
+    /*background: #F8F0EC;*/
+    background: #80808024;
+}
+
+form
+{
+	align-self: center;
+	margin-top: 40px;
+	width: 500px;
+	padding: 20px;
+
+}
+
+td
+{
+	font-weight: bold;
+	color: black;
+	max-width: 250px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select
+{
+	width: 242px;
+	height: 30px;
+	border-radius: 3px;
+	padding-left: 5px;
+	border: 1px solid silver;
+}
+
+
+
+header .container .logo img {
+    margin: 0;
+    width: 154px;
+    height:40px;
+}
+
+header {
+    box-sizing: border-box;
+    border-bottom: 1px solid #cecece;
+    min-height: 51px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 11px 0 8px 15px;
+    background-color: white;
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 100;
+}
+.container{
+    width: 60%;
+    float: left;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: nyt-franklin,Arial,Helvetica,sans-serif;
+    color: #000;
+    line-height: 1em;
+    font-weight: 500;
+}
+.navbar{
+    width: 40%;
+    float: right;
+    font-family: nyt-franklin,Arial,Helvetica,sans-serif;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+.navbar li {
+    float: left;
+    margin-left: 10px;
+}
+
+.navbar li a {
+    display: block;
+    color: #6288a5;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 2em;
+}
+
+.navbar li a:hover {
+    border: 1px solid #e7e7e7;
+    background-color: #eee;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+
+}
+
+.form{
+
+	padding-top: 1em;
+    padding-bottom: 1em;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-box-sizing: initial;
+    box-sizing: initial;
+
+}
+
+.formBox {
+    max-width: 525px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+footer {
+        
+        bottom:0;
+        width:100%;
+        height:25px;            /* Height of the footer */
+        
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+
+footer>a {
+    color: black ;
+}
+
+footer a {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #6288a5;
+    font-size: 16px;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    line-height: 21px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ul, menu, dir {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+
+
+.btn{
+
+	color: #fff;
+    background-color: #6288a5;
+    border-color: #6288a5;
+
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: 2.75em;
+    /*line-height: calc(2.75em - 2px);*/
+    /*line-height: 10px;*/
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 25px;
+    border: 1px solid #e7e7e7;
+    border-radius: .2em;
+
+
+}
+.btn:hover {
+    background-color: #4d7b9f;
+        -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background-image: none;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+
+}
+.copyright{
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+.helpfulLinks,
+.socialLinks{
+    width: 20%;
+    float: left;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+footer li {
+    float: left;
+    margin-left: 10px;
+}
+
+footer ul li a {
+    color: #6288a5;
+}
+footer{
+
+}
+.extraHeight{
+    height: 35em;
+}
+
+.descriptionBox{
+    display: flex;
+    flex-direction: column; 
+}
+.descriptionBox textarea {
+    box-sizing: border-box; /* fit parent width */
+    height: 22em;
+
+}

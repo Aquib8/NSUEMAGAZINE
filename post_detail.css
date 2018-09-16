@@ -1,0 +1,21 @@
+
+#trending_single {
+    background: #fff;
+    height: 100%;
+    width: 75%; 
+    margin: auto;
+    float: left;
+    margin-bottom: 10px;
+}
+#container_single{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /*background: blue;*/
+    min-height: 768px;
+}
+#single_post_text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
